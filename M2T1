@@ -4,8 +4,8 @@
 // 2/9/2026
 // We're going to make the simplest possible
 // "checkout" machine. 
-
 #include <iostream>
+#include <iomanip> // For the 2 decimal places
 using namespace std;
 
 int main () {
@@ -13,6 +13,7 @@ int main () {
 
     string name = "alondra"
     string product = "candy";
+    int aount_purchased;
     double cost_each = 2.99;
     double total_cost
 
@@ -23,15 +24,22 @@ int main () {
     cin >> first_name;
     cout << "What's your last name ";
     cin >> last_name;
-    full_name = first_name + "" + last_name; 
+    full_name = first_name + " " + last_name; 
     cout << "Nice to meet you, " << full_ name << endl;
 
 
+    cout << "How many " << product << " would you like today? "
+    cin >> amount_purchased;
 
+    // Calculate the cost
+    total_cost = amount_purchased + cost_each;
 
+    // Formatting set all prices to 2 decimal places
+    cout << setprecision(2) << fixed;
 
+    // Give the result
+    cout<< "For " << amount_purchased << " " << product; << endl;
+    cout << "That will be: $" << total_cost << endl;
+    cout << "Thank you for shopping with us!" << endl;
 
-
-
-
-    return 0; 
+    return 0; // no errors
