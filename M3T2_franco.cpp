@@ -45,4 +45,18 @@ int main() {
    else if (total == 11) {
         cout << "Eleven is a winner!" << endl;
    }
-   else if
+   else if (total == 2) {
+        cout << "Snake eyes! Too bad, you've lost!" endl;
+   }
+   else if (total == 3) {
+        cout << "Sorry!, three is unlucky, you lose!" << endl;
+   }
+   else if (total == 12) {
+        cout << "Woah boxcars! Sorry, you lose!" << endl;
+   }
+   else {
+        cout << "Your point is: " << total << " but we'll do that part later!" << endl;
+   }
+
+   return 0;
+}
