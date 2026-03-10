@@ -26,7 +26,7 @@ else if (numGrade >= 80 & numGrade <= 89) {
 else if (numGrade >= 70 & numGrade <= 79) {
     cout << "\nYour letter grade is a C!" << endl;
 }
-else if (numGrade >= 60 & numGrade <= 69) {
+else if (numGrade >= 0 & numGrade <= 69) {
     cout << "\nYour letter grade is an F!" << endl;
 }
 else {
