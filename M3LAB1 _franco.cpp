@@ -19,5 +19,23 @@ cout << "Hello, welcome to Our Bakery! " << endl;
 int choice;
 
 // ask the question
+//cout << "Do you choose door 1 or door 2?" endl;
+
 cout << "At this time the only pastries we are only serving croissants and cinnamon rolls" << endl;
 cout << "Would you like the first or second option?" << endl;
+cout << "Put in 1 or 2: ";
+cin >> choice;
+
+// using if, make a decision based onthe user's choice
+/* 
+ if (1 == choice) {
+     cout << "You chose door 1" << endl;
+}
+else if (2 == choice) {
+    cout << "You chose door 2" endl;
+}
+else {
+    cout << "I'm sorry, that is not a valid choice."
+*\
+
+
