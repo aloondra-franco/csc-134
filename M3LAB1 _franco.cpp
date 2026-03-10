@@ -35,7 +35,44 @@ else if (2 == choice) {
     cout << "You chose door 2" endl;
 }
 else {
-    cout << "I'm sorry, that is not a valid choice."
-*\
+    cout << "I'm sorry, that is not a valid choice." << endl;
+*/
 
+if (1 == choice) {
+    cout << "Alright so a croissant? Sounds great!" << endl;
+}
+else if (2  == choice) {
+    cout << "Alright so a Alright so a cinnamon roll? Sounds good!" << endl; 
+}
+else {
+    cout << "Sorry! We are all out at the moment. Please choose a different option." << endl;
+}
 
+// finish up 
+cout << "Thanks for your purchase! it will be ready shortly." << endl;
+// runs no matter what they choose
+return 0;
+} // end of main () method 
+
+// Example #3
+/*
+void chooseDoor 1() {
+    cout << "You chose door 1." << endl;
+    cout << "You win ... a new car!" << endl;
+}
+void chooseDoor2() {
+    cout << "You chose door 2." << endl;
+    cout << "You win ... a bottle floor wax." << endl;
+}
+*/
+void choose1() {
+    cout << "\nYou chose the first option. Okay!" endl;
+    cout << "The croissant will be out shortly!" << endl;
+}
+
+void choose2() {
+    cout << "\nYou chose the second option. great!" endl;
+    cout << "Your cinnamon roll will be out shortly!" << endl;
+}
+
+// If added a door #3 or 4, we could add another else if to our main (), and then declare and define chooseDoor3() and so on.
