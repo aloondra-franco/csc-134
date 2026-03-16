@@ -109,4 +109,9 @@ void question2() {
 
    total_price = sub_total + tax_amount + tip_amount
    
-
+   // present the receipt 
+   cout << setprecision(2) << fixed;
+   cout << endl;
+   cout << "YOUR ORDER " << endl << "-------------------------------------" << endl;
+   cout << num_meals << " x " << mealName << "\t$" << item_price << endl;
+   cout << "Subtotal = \t\t$" << sub_total << endl;
