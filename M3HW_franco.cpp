@@ -23,7 +23,7 @@ int main() {
     cout << "Hello! Which question would you like. Your options are from questions 1-4" << endl;
     cout << "Question 1 - Chatbot Disscussion" << endl;
     cout << "Question 2 - Receipt Calculator" << endl;
-    cout << "Question 3 - Pastries" << endl;
+    cout << "Question 3 - Guess the pastries" << endl;
     cout << "Question 4 - Math practice" << endl;
     cout << "\nPlease select your desired question (1-4): ";
     cin >> questionChoice; 
@@ -115,3 +115,26 @@ void question2() {
    cout << "YOUR ORDER " << endl << "-------------------------------------" << endl;
    cout << num_meals << " x " << mealName << "\t$" << item_price << endl;
    cout << "Subtotal = \t\t$" << sub_total << endl;
+   cout << "Tip = \t\t\t$" << tip_amount << endl;
+   cout << "Tax = t\t\t\t$" << tax_amount << endl;
+   cout << "-------------------------------------" << endl;
+   cout << "Your total = \t\t\t$" << total_price << endl;
+   cout << "Thank you! Have a great day!" << endl;
+}
+
+void question3() {
+    // Question 3 - pastries
+    cout << "Question 3 - Guess the pastires" << endl;
+
+    cout << "This is a fun little challenge to test you pastry knowledge!" << endl;
+    cout << "The game is simple, all you have to do to win is put your knowledge to the test and answer to the best of your ability!" << endl;
+    cout << "You will be guessing which two pastries we chose!" << endl;
+    cout << "Good luck!" << endl;
+
+    // Declare variables
+    int choice1
+    int choice2
+
+    // First question
+    cout << "Alright lets begin!" << endl;
+    
