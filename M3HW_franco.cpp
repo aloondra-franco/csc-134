@@ -1,5 +1,5 @@
 // CSC 134 
-// M3HW - Gold 
+// M3HW - Silver
 // Alondra Franco 
 // 3/16/2026
 
@@ -10,7 +10,6 @@ using namespace std;
 void question1();
 void question2();
 void question3();
-void question4();
 
 
 // Question 1
@@ -24,8 +23,7 @@ int main() {
     cout << "Question 1 - Chatbot Disscussion" << endl;
     cout << "Question 2 - Receipt Calculator" << endl;
     cout << "Question 3 - Guess the pastries" << endl;
-    cout << "Question 4 - Math practice" << endl;
-    cout << "\nPlease select your desired question (1-4): ";
+    cout << "\nPlease select your desired question (1-3): ";
     cin >> questionChoice; 
 
     // Based off on choice entered
@@ -163,12 +161,6 @@ void question3() {
         cout <<" Thank you for playing! We'll see you again next try!" << endl;
     }
 }
-void question4 () {
-    // Question 4 - Math Practice
-    cout << "Question 4 - Math Practice" << endl;
-
-    // Declare Variables 
-    int
 
 
  
