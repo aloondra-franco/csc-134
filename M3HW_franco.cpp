@@ -135,6 +135,42 @@ void question3() {
     int choice1
     int choice2
 
-    // First question
-    cout << "Alright lets begin!" << endl;
-    
+    cout << "Alright lets begin! Our first question is going to be an easy one." << endl;
+    cout << "Please wait till the very end for your quiz results!" << endl;
+
+// First question
+    cout << "\nQuestion 1: Which pastry is eaten on every once a year celebration?" << endl;
+    cout << "Heres a hint! This celebration involves birthdays!" << endl;
+
+    cout << "Option 1: Cake" << endl;
+    cout << "Option 2: Croissants" << endl;
+    cout << "Please enter 1 or 2: ";
+    cin >> choice1; 
+
+// Second question
+    cout << "Which is the best flavor for a cake?" << eendl;
+    cout << "Option 1: Chocolate" << endl;
+    cout << "Option 2: Strawberry" << endl;
+    cout << "Please enter 1 or 2: ";
+    cout >> choice2;
+
+    if (1 == chocie1) {
+        cout << "You are correct!" << endl;
+        cout << "Thank you for playing" << endl;
+    }
+    if  (2 == choice2) {
+        cout << "BOO You lose!" << endl;
+        cout <<" Thank you for playing! We'll see you again next try!" << endl;
+    }
+}
+void question4 () {
+    // Question 4 - Math Practice
+    cout << "Question 4 - Math Practice" << endl;
+
+    // Declare Variables 
+    int
+
+
+ 
+
+
