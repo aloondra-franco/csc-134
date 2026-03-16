@@ -69,5 +69,44 @@ void question1() {
 
 void question2() {
     // Question 2: Receipt Calculator
+    cout << "Question 2 - Receipt Calculator" << endl;
     
-    
+    // Declare variables 
+    string mealName = "Famous Smash Burger"
+    double item_price = 5.99;
+    double tax_percent = 0.08;
+    double tax_amount;
+    double tip_amount;
+    double sub_total;
+    double total_price;
+
+    int num_meals;
+    int dine_in;
+
+    //Greet user and take their order
+    cout << "Hello, Welcome to Our CSC 134 Restaurant" << endl;
+    cout << "Would you like to try our Famous Smash Burger today? " << endl;
+    cout << "We have people from all over the world who come to try our food!" << endl;
+
+    cout << "What would you like to order? ";
+    cin >> mealName; 
+    cout << "Great! The cost is going to be " << item_price << ". How many would you like to order?" << endl;
+    cin >> num_meals;
+
+    // Ask if it is a dine in or carry out
+    cout << "And will you be dining in or dining out today? Please select 1 for dine in and 2 for dine out!" << endl;
+    cin >> dine_in;
+
+    // Ask for tip (dine in)
+    cout << "Thank you for choosing us! How much would you like to tip? " << endl;
+    cin >> tip_amount;
+    cout << "Thank you!" << endl;
+
+    // Calculate the total price of purchase
+   sub_total = num_meals * item_price;
+   tax_amount = item_price * tax percent;
+   // Total price
+
+   total_price = sub_total + tax_amount + tip_amount
+   
+
