@@ -1,8 +1,8 @@
 /*
 CSC 134
-M$HW1
+M4HW1 - Gold
 Aondra Franco 
-3/23/26
+03/23/26
 */
 
 #include <iostream>
@@ -12,6 +12,8 @@ int main()
 { 
     // declare variables
     int numValue;
+    int i = 1;
+    int finalAnswer;
 
     // Ask user to input a value
     cout << "Hello Welcome!" << endl;
@@ -19,5 +21,12 @@ int main()
     cout << "This value will be put to the multiplication table." << endl;
     cin >> numValue;
 
+    while (i <= 12) {
+        finalAnswer= numValue * i;
+        cout << numValue << " times " << i << " is equal to " << finalAnswer << endl;
+        i++;
+    }
+}
 
+return 0;
 
