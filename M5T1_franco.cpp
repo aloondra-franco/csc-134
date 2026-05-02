@@ -5,3 +5,29 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+// Declare Functions
+string formatAnswer(int answer); 
+void printAnswer(string msg);
+
+int main() {
+    int answer = 5;
+    string message; 
+    message = formatAnswer(answer); 
+    printAnswer(message); 
+    return 0;
+}
+
+// Define Functions 
+string formatAnswer (int answer) {
+    // String containing answer
+    string answerMessage; 
+    answerMessage = "The answer is ";
+    answerMessage += to_string(answer);
+    return answerMessage; 
+}
+
+void printAnswer(string msg) {
+    // Display message 
+    cout << msg << endl;
+}
