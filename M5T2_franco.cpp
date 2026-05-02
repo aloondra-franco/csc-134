@@ -17,11 +17,17 @@ int square(int number) {
 }
 
 int main() {
+
     // count and find results for each one 
+    
     int count = 1;
     int result;
 
     while (count <= 10) {
         reesult = square(count);
-        printResult
+        printResult(count, result);
+        count++;
+    }
+    return 0;
+}
 
