@@ -30,4 +30,5 @@ string formatAnswer (int answer) {
 void printAnswer(string msg) {
     // Display message 
     cout << msg << endl;
+
 }
